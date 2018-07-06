@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+    - name: tomcat8 stoping ......
+      service: name=tomcat8 state=stopped
+...
